@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+.main-body {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  height: 100px;
+  width: 100%;
+
+  background-color: #404142;
+}
+
+.logo {
+  display: flex;
+  height: 100%;
+  width: 24.7%;
+  justify-content: flex-end;
+}
+
+.applebees {
+  height: 76%;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.applebees-logo {
+  height: 100%;
+  object-fit: contain;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100%;
+  width: 70%;
+  color: #fff;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+}
+.selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+
+  height: 50%;
+  width: 100%;
+
+  padding-bottom: 1.5%;
+  padding-right: 26%;
+  padding-top: 0.9%;
+
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.login {
+  margin-right: 20px;
+}
+.store {
+  margin-left: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
