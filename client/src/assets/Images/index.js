@@ -1,2 +1,11 @@
 import applebeesLogo from "./applebees_logo.png";
-export { applebeesLogo };
+import userlogo from "./userLogo.svg";
+import locationLogo from "./locationLogo.svg";
+import downArrow from "./downArrow.svg";
+import shoppingCart from "./shoppingCart.png";
+import menuLogo from "./menuLogo.svg";
+import chefhatLogo from "./chefhatLogo.svg";
+import giftcardLogo from "./giftcardLogo.svg";
+import careerlogo from "./careerlogo.png";
+import shoppingcartWhiteLogo from "./shoppingcartWhiteLogo.svg";
+export { applebeesLogo, userlogo, locationLogo, downArrow, shoppingCart, menuLogo, chefhatLogo, giftcardLogo, careerlogo, shoppingcartWhiteLogo };

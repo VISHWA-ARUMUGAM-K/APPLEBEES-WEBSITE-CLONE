@@ -50,7 +50,10 @@
 
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bolder;
+  box-sizing: border-box;
+  padding-right: 40px;
 }
+
 .selection {
   display: flex;
   flex-direction: row;
@@ -62,18 +65,52 @@
   width: 100%;
 
   padding-bottom: 1.5%;
-  padding-right: 26%;
+  padding-right: 21.5%;
   padding-top: 0.9%;
 
   font-size: 12px;
   letter-spacing: 0.5px;
 }
-
-.login {
-  margin-right: 20px;
+.user {
+  height: 100%;
+  width: 27px;
+  box-sizing: border-box;
+  margin-bottom: 2px;
+  /* margin-left: 10px; */
 }
+.userlogo {
+  height: 65%;
+  width: 30px;
+
+  margin-top: 5px;
+}
+
+.location {
+  height: 100%;
+  width: 24px;
+  box-sizing: border-box;
+  margin-bottom: 2px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+.location-logo {
+  height: 65%;
+  width: 30px;
+  margin-left: 2px;
+}
+
+.downArrow {
+  height: 100%;
+  width: 25px;
+}
+.downarrow-logo {
+  height: 65%;
+  width: 25px;
+}
+
 .store {
-  margin-left: 10px;
+  margin-left: 3px;
 }
 
 .navbar {
@@ -82,4 +119,232 @@
   justify-content: center;
   height: 50%;
   width: 100%;
+  box-sizing: border-box;
+
+  margin-left: 150px;
+}
+
+.navbar-enter {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 7px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 60%;
+  height: 100%;
+
+  font-size: 13px;
+  gap: 5px;
+
+  list-style-type: none;
+}
+
+.shoppingcart {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+  height: 100%;
+  width: 23%;
+
+  font-size: 14px;
+
+  margin-right: 8px;
+}
+.shoppingcart-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 43px;
+}
+.shoppingcart-detail {
+  /* display: flex; */
+  width: 90px;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+}
+.shoppingcart-image {
+  height: 24px;
+  width: 38px;
+}
+.menu {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+  height: 100%;
+  width: 17%;
+
+  font-size: 14px;
+
+  margin-left: 10px;
+}
+.menu-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 43px;
+}
+.menu-detail {
+  width: 40px;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+}
+.menu-image {
+  height: 24px;
+  width: 38px;
+}
+
+.locations {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+  height: 100%;
+  width: 18%;
+
+  font-size: 14px;
+
+  margin-left: 10px;
+}
+.locations-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 43px;
+}
+.locations-detail {
+  width: 70px;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+}
+.locations-image {
+  height: 24px;
+  width: 38px;
+}
+
+.catering {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+  height: 100%;
+  width: 18%;
+
+  font-size: 14px;
+
+  margin-left: 15px;
+}
+.catering-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 43px;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+}
+.catering-detail {
+  width: 65px;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+}
+.catering-image {
+  height: 19px;
+  width: 30px;
+}
+
+.giftcard {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+  height: 100%;
+  width: 18%;
+
+  font-size: 14px;
+
+  margin-left: 15px;
+}
+.giftcard-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 43px;
+  box-sizing: border-box;
+}
+.giftcard-detail {
+  width: 70px;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+}
+.giftcard-image {
+  height: 24px;
+  width: 38px;
+}
+
+.career {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+  height: 100%;
+  width: 18%;
+
+  font-size: 14px;
+
+  margin-left: 15px;
+}
+.career-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 43px;
+  box-sizing: border-box;
+}
+.career-detail {
+  width: 65px;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+}
+.career-image {
+  height: 24px;
+  width: 24px;
+}
+.shoppingcartwhite {
+  box-sizing: border-box;
+  margin-left: 140px;
+}
+
+.shoppingcartwhitelogo {
+  width: 27px;
+  height: 25px;
 }
