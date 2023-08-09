@@ -72,6 +72,11 @@ const MainPage = () => {
           </div>
         </div>
       </div>
+      <div className="sec-header">
+        <div className="sec-header-content">
+          APPLEBEE &#795; S DELIVERY - <span className="ordernow">ORDER NOW</span>
+        </div>
+      </div>
     </div>
   );
 };

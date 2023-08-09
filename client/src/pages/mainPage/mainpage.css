@@ -348,3 +348,26 @@
   width: 27px;
   height: 25px;
 }
+
+/* SECOND HEADER */
+
+.sec-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 45px;
+
+  color: white;
+  background-color: #ab192d;
+}
+
+.sec-header-content {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: lighter;
+  font-size: 17px;
+}
+.ordernow {
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+}
